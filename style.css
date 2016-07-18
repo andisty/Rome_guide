@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'Special Elite';
+    src: url('https://fonts.googleapis.com/css?family=Special+Elite');
+    font-weight: normal;
+    font-style: normal;
+}
+img {
+    position: inherit;
+    border-radius: 100%;
+    height: 10em;
+}
+.main_container {
+    flex-direction: row;
+}
+.beauties {
+    font-family: 'Special Elite';
+    color: #EC7100;
+    padding-left: 30px;
+}
+.drinking_places {
+    font-family: 'Special Elite';
+    color: #8B0000;
+    position: relative;
+    padding-left: 30px;
+}
+body {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/53/Colosseum_in_Rome,_Italy_-_April_2007.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.right_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.left_container {
+    float: left;
+    width: 200px;
+    height: 100vh;
+    background-color: gold;
+    border-radius: 20px;
+    align-content: center;
+}
+#header {
+    background-color: #8B0000;
+    border-radius: 50px;
+    font-size: 15px;
+    height: inherit;
+    padding-top: 5px;
+    width: 90%;
+    margin-bottom: 20px;
+}
+#pub {
+    background-color: #FF8C00;
+    border-radius: 50px;
+    font-size: 15px;
+    height: inherit;
+    padding-top: 5px;
+    width: 70%;
+}
+ul {
+    font-family: 'Special Elite';
+    font-weight: bold;
+    color: #FFD700;
+    padding-bottom: 20px;
+}
+ol {
+    font-family: 'Special Elite';
+    font-weight: bold;
+    color: #006400;
+    padding-bottom: 20px;
+}
+#rome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+#menu {
+    font-family: 'Special Elite';
+    color: #8B0000;
+    font-size: 25px;
+    padding-top: 5px;
+}
+a:hover {
+    font-style: italic;
+    font-weight: lighter;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p {
+  font-size: 40px;
+  font-family: 'Special Elite';
+  text-align: center;
+  margin: 5px;
+  color: #FFFAFA;
+}
